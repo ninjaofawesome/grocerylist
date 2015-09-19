@@ -1,0 +1,27 @@
+{
+  "name": "grocerylist",
+  "version": "0.0.0",
+  "description": "Share Groceries With Friends",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ninjaofawesome/grocerylist"
+  },
+  "author": "Hannah Nordgren",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ninjaofawesome/grocerylist/issues"
+  },
+  "homepage": "https://github.com/ninjaofawesome/grocerylist",
+  "dependencies": {
+    "body-parser": "^1.14.0",
+    "express": "^4.13.3",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.1.7",
+    "morgan": "^1.6.1"
+  }
+}
